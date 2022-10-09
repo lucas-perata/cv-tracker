@@ -1,6 +1,10 @@
 import React from "react";
 
-function Applications(props) {
+type Props = {
+  props: Array<Props>;
+};
+
+function Applications({ props }: Props) {
   return (
     <div>
       <h1>Testing Rails API</h1>
