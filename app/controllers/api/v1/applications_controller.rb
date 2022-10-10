@@ -1,4 +1,4 @@
-class Api::V1::ApplicationsController < ApplicationController
+class Api::V1::ApplicationsController < ApiController
   before_action :set_application, only: %i[ show update destroy ]
 
   def index
